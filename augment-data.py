@@ -6,7 +6,7 @@ import os
 import numpy as np
 from deskew import determine_skew
 
-def process(wd:str, bmin:int, bmax:int, inverse:bool, output) -> None:
+def process(wd:str, bmin:int, bmax:int, inverse:bool, output:str) -> None:
     '''
         Process images and save to ./images
     '''
@@ -73,3 +73,4 @@ if __name__ == '__main__':
     process(args.dir, args.min, args.max, args.inv, args.out)
 
     
+
