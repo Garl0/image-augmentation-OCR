@@ -1,0 +1,7 @@
+argparse
+glob
+cv2
+sys
+os
+numpy
+deskew
