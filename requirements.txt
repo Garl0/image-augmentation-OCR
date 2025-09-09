@@ -1,7 +1,4 @@
 argparse
-glob
-cv2
-sys
-os
+opencv-python
 numpy
 deskew
