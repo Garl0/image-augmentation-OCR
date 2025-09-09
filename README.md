@@ -27,3 +27,12 @@ With the following parameters for custom setting:
 `python augment-data.py -d ./raw-images -min 0 -max 255 -out images`
 
 `python augment-data.py -d ./raw-images -min 0 -max 255 -out inverted -inv True`
+
+# Images
+Raw Image:
+
+<img src="raw-images/image2.png" width="250">
+
+Output Image:
+
+<img src="raw-images/images/image2-1.png" width="250">
