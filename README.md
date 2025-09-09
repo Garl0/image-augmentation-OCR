@@ -2,10 +2,12 @@
 
 This tool will do data augmentation techniques to turn raw images into machine-readable data for better accuracy for OCR training.
 
+This includes rotation correction, binarization, erosion, and more techniques.
+
 ## Installation:
 
-use `pip install -r requirements.txt`
-To install all the dependencies for the tool.
+Use `pip install -r requirements.txt`
+to install all the dependencies for the tool.
 
 ## Usage:
 `python augment-data.py`
